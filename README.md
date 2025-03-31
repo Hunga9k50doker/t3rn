@@ -36,6 +36,12 @@ npm install
 nano .env
 ```
 
+- Setup wallets, you must run again this command when you have any change in privateKeys.txt
+
+```bash
+node setup
+```
+
 - Setup input value
 
 * proxy: http://user:pass@ip:port
