@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "colors": "^1.4.0",
+    "console-clear": "^1.1.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "figlet": "^1.8.0",
+    "https-proxy-agent": "^7.0.6",
+    "inquirer": "^8.2.4",
+    "readline-sync": "^1.4.10",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "add": "node scripts/wallet_aggregator.js",
+    "auto": "node scripts/auto_index.js",
+    "show": "cat scripts/wallets.json",
+    "executor": "cd executor && chmod +x script.sh && ./script.sh"
+  }
+}
